@@ -26,5 +26,5 @@ if __name__ == '__main__':
 
     print(median(x[:k//2]))
     print(median(x))
-    print(median(x[(k//2)+1:]))
+    print(median(x[(k+1)//2:]))
     
